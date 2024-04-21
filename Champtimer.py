@@ -45,17 +45,17 @@ prefix = '#'
 guild = "N Guild"
 
 # Channel IDs
-normal = '358325927584727050'
-secret = '409360127561564160'
-main = '366277417695838218'
+normal = ''
+secret = ''
+main = ''
 
 # Role IDs
-owner = '165663747652845578'
-leader = ['388017480490024966', '357919453721395200']
-member = '359261078628335616'
+owner = ''
+leader = ['', '']
+member = ''
 
 # Banned IDs
-banned = ['321769687555768320', '405840476550201344']
+banned = ['', '']
 
 ############################
 ### SQLite db statements ###
@@ -1143,6 +1143,6 @@ async def on_message(message):
     
                 await client.send_message(client.get_channel(secret), status_msg)
 
-client.run('NDE5MDU5NjcwMjEzNDU5OTc5.DXqnhg.zNmKOMJL8Z8bo7sqNKtW9EpC7Is')
+client.run('') #discord bot token needed
 conn.close()
 c.close()
